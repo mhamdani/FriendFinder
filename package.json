@@ -1,0 +1,33 @@
+{
+  "name": "friendfinder",
+  "version": "1.0.0",
+  "description": "A compatibility-based full-stack application which takes in results from the user's survey and compares them with results from other users. The app will then display the user's best, overall match. This app uses Express.js to handle routing and is deployed on Heroku to allow other user's survey input.",
+  "main": "server.js",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "mysql": "^2.15.0",
+    "nodemon": "^1.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhamdani/FriendFinder.git"
+  },
+  "keywords": [
+    "Friend",
+    "Finder"
+  ],
+  "author": "mhamdani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhamdani/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/mhamdani/FriendFinder#readme"
+}
